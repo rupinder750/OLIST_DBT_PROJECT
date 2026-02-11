@@ -6,11 +6,11 @@ sources:
     schema: RAW
     freshness:
       warn_after:
-        count: 12
-        period: hour
+        count: 2600
+        period: days
       error_after:
-        count: 24
-        period: hour
+        count: 2700
+        period: days
     tables:
       - name: customers
         description: Customer master data with location information
