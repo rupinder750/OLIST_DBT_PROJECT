@@ -10,7 +10,7 @@ sources:
         loaded_at_field: order_purchase_timestamp
         freshness:
           warn_after:
-            count: 2600
+            count: 2700
             period: day
           error_after:
             count: 2700
