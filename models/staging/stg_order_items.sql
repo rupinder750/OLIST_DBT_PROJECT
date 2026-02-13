@@ -3,4 +3,4 @@ SELECT
     product_id,
     price,
     freight_value
-FROM {{ source('olist_raw', 'order_items') }}
+FROM {{ source('olist_raw', 'order_items') }}  
