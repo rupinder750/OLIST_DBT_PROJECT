@@ -3,4 +3,5 @@ SELECT
     customer_id,
     order_status,
     order_purchase_timestamp
-FROM {{ source('olist_raw', 'orders') }}
+FROM {{ source('olist_raw', 'orders') }}  
+
